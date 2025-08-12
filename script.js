@@ -56,6 +56,35 @@
 // // console.log(copy);
 
 
-let arr = [1,2,3,4];
-let arr2 = [100,101,105]
-console.log(arr.concat(arr2))
+// let arr = [1,2,3,4];
+// let arr2 = [100,101,105]
+// console.log(arr.concat(arr2))
+// //console.log(arr)
+// //arr.push(...arr2)
+// console.log(arr)
+// let res = [...arr, ...arr2];
+// console.log(res)
+
+
+// let arr = [1,2,3,4,5]
+
+// let res = arr.filter((item)=>{
+//     return item%2 == 0;
+// })
+// console.log(res)
+
+
+// const words = ["apple", "banana", "grape", "apricot", "orange"];
+// let res = words.filter((item)=>{
+//     return item.startsWith('a');
+// })
+// console.log(res)
+
+// const users = [
+//   { name: "Puneet", age: 25 },
+//   { name: "Rahul", age: 17 },
+//   { name: "Anjali", age: 19 }
+// ];
+
+// let res = users.filter(item =>  item.age < 18)
+// console.log(res)
