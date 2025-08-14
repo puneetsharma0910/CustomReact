@@ -88,3 +88,15 @@
 
 // let res = users.filter(item =>  item.age < 18)
 // console.log(res)
+
+
+// const mixed = [0, 1, "", "hello", null, undefined, NaN, 42];
+// const nums = [1, 2, 3, 2, 4, 2, 5];
+
+const mixed = [0, 1, "", "hello", null, undefined, NaN, 42];
+
+
+let falsey = mixed.map((it)=>{
+    if(it == 0 || it == "" || it == null || it == undefined || it == NaN) return it;
+})
+console.log(falsey)
